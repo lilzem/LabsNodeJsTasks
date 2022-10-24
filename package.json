@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node api/index.js"
+    "start": "node api/index.js",
+    "eslint": "eslint --ext .js,.ts --ignore-path .gitignore api/",
+    "eslint:fix": "eslint --ext .js,.ts api/ --ignore-path .gitignore --fix"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/lilzem/LabsNodeJsTasks/issues"
   },
-  "homepage": "https://github.com/lilzem/LabsNodeJsTasks#readme"
+  "homepage": "https://github.com/lilzem/LabsNodeJsTasks#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0"
+  }
 }
