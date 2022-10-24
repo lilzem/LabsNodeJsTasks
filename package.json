@@ -7,7 +7,10 @@
   "scripts": {
     "start": "node api/index.js",
     "eslint": "eslint --ext .js,.ts --ignore-path .gitignore api/",
-    "eslint:fix": "eslint --ext .js,.ts api/ --ignore-path .gitignore --fix"
+    "eslint:fix": "eslint --ext .js,.ts api/ --ignore-path .gitignore --fix",
+    "prettier": "prettier . --ignore-path .gitignore --check",
+    "prettier:fix": "prettier . --ignore-path .gitignore --write",
+    "lint:fix": "npm run eslint:fix && npm run prettier:fix"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
   "homepage": "https://github.com/lilzem/LabsNodeJsTasks#readme",
   "devDependencies": {
     "eslint": "^8.26.0",
-    "eslint-plugin-sonarjs": "^0.16.0"
+    "eslint-plugin-sonarjs": "^0.16.0",
+    "prettier": "^2.7.1"
   }
 }
