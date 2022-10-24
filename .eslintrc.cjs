@@ -1,9 +1,12 @@
 module.exports = {
     "env": {
-        "browser": true,
+        "node": true,
         "es2021": true
     },
-    "extends": "eslint:recommended",
+    "extends": ["eslint:recommended",
+        'plugin:sonarjs/recommended'
+    ],
+    "plugins":["sonarjs"],
     "overrides": [
     ],
     "parserOptions": {
