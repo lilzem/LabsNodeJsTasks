@@ -1,0 +1,19 @@
+{
+  "name": "labsnodejstask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilzem/LabsNodeJsTasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilzem/LabsNodeJsTasks/issues"
+  },
+  "homepage": "https://github.com/lilzem/LabsNodeJsTasks#readme"
+}
